@@ -24,8 +24,8 @@ import javax.swing.JPanel;
  *
  * @author Mea
  */
-public class E10LatA extends JPanel {
-    public E10LatA() {
+public class E10LatB extends JPanel {
+    public E10LatB() {
         
     }
     
@@ -50,12 +50,6 @@ public class E10LatA extends JPanel {
             String tulisan = "Clipping: Yukinoshita Yukino";
             
             g2d.drawString(tulisan, 100, 350);
-            FontRenderContext frc = g2d.getFontRenderContext();
-            LineMetrics metrics = font.getLineMetrics(tulisan, frc); 
-            Line2D ascent = new Line2D.Float(100, 350 - metrics.getAscent(), 350, 350 - metrics.getAscent());
-            g2d.draw(ascent);
-            Line2D descent = new Line2D.Float(100, 350 + metrics.getDescent(), 350, 350 + metrics.getDescent());
-            g2d.draw(descent);
             
             g2d.drawImage(img, 300, 10, 600, 287, null);
             g2d.setColor(new Color(238,238,238));

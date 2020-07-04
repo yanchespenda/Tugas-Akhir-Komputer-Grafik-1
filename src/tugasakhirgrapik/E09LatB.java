@@ -24,12 +24,12 @@ import javax.swing.JPanel;
  *
  * @author Mea
  */
-public class E10LatA extends JPanel {
-    public E10LatA() {
+public class E09LatB extends JPanel {
+    public E09LatB() {
         
     }
     
-    public void paintComponent (Graphics g){
+    public void paintComponent(Graphics g) {
         super.paintComponent(g);
         
         Graphics2D g2d = (Graphics2D) g;
@@ -45,17 +45,9 @@ public class E10LatA extends JPanel {
             g2d.setClip(null);
             g2d.setColor(new Color(238,238,238));
             
-            Font font = new Font("Roboto", Font.PLAIN, 19); 
-            g2d.setFont(font);
             String tulisan = "Clipping: Yukinoshita Yukino";
             
             g2d.drawString(tulisan, 100, 350);
-            FontRenderContext frc = g2d.getFontRenderContext();
-            LineMetrics metrics = font.getLineMetrics(tulisan, frc); 
-            Line2D ascent = new Line2D.Float(100, 350 - metrics.getAscent(), 350, 350 - metrics.getAscent());
-            g2d.draw(ascent);
-            Line2D descent = new Line2D.Float(100, 350 + metrics.getDescent(), 350, 350 + metrics.getDescent());
-            g2d.draw(descent);
             
             g2d.drawImage(img, 300, 10, 600, 287, null);
             g2d.setColor(new Color(238,238,238));

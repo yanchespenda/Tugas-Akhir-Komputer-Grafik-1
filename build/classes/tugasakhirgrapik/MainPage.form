@@ -18,6 +18,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Tentang"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemFileTentangActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemFileExit">
               <Properties>
@@ -34,10 +37,13 @@
             <Property name="text" type="java.lang.String" value="PT 3"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT01A">
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT03A">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Latihan Ke 1"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT03AActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -48,8 +54,19 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemPT04A">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Latihan Ke "/>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 1"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT04AActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT04B">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT04BActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -60,8 +77,27 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemPT05A">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Latihan Ke "/>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 1"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT05AActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT05B">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT05BActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT05C">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT05CActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -72,8 +108,27 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemPT06A">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Latihan Ke "/>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 1"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT06AActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT06B">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT06BActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT06C">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT06CActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -86,6 +141,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Latihan Ke "/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT07AActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -96,8 +154,19 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemPT08A">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Latihan Ke "/>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 1"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT08AActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT08B">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT08BActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -108,8 +177,19 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemPT09A">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Latihan Ke "/>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 1"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT09AActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT09B">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT09BActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -120,8 +200,19 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemPT10A">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Latihan Ke "/>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 1"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT10AActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT10B">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT10BActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -132,8 +223,19 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemPT11A">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Latihan Ke "/>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 1"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT11AActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT11B">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT11BActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -146,6 +248,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Latihan Ke "/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT12AActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -156,20 +261,19 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuItemPT13A">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Latihan Ke "/>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 1"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT13AActionPerformed"/>
+              </Events>
             </MenuItem>
-          </SubComponents>
-        </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu13">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="PT 14"/>
-          </Properties>
-          <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT14A">
+            <MenuItem class="javax.swing.JMenuItem" name="menuItemPT13B">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Latihan Ke "/>
+                <Property name="text" type="java.lang.String" value="Latihan Ke 2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuItemPT13BActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -178,6 +282,7 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Tugas Akhir Alfian Rikzandi"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
