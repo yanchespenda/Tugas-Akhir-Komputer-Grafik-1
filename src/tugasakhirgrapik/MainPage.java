@@ -5,6 +5,8 @@
  */
 package tugasakhirgrapik;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author Mea
@@ -33,37 +35,51 @@ public class MainPage extends javax.swing.JFrame {
         menuItemFileTentang = new javax.swing.JMenuItem();
         menuItemFileExit = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
-        menuItemPT01A = new javax.swing.JMenuItem();
+        menuItemPT03A = new javax.swing.JMenuItem();
         jMenu3 = new javax.swing.JMenu();
         menuItemPT04A = new javax.swing.JMenuItem();
+        menuItemPT04B = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         menuItemPT05A = new javax.swing.JMenuItem();
+        menuItemPT05B = new javax.swing.JMenuItem();
+        menuItemPT05C = new javax.swing.JMenuItem();
         jMenu5 = new javax.swing.JMenu();
         menuItemPT06A = new javax.swing.JMenuItem();
+        menuItemPT06B = new javax.swing.JMenuItem();
+        menuItemPT06C = new javax.swing.JMenuItem();
         jMenu6 = new javax.swing.JMenu();
         menuItemPT07A = new javax.swing.JMenuItem();
         jMenu7 = new javax.swing.JMenu();
         menuItemPT08A = new javax.swing.JMenuItem();
+        menuItemPT08B = new javax.swing.JMenuItem();
         jMenu8 = new javax.swing.JMenu();
         menuItemPT09A = new javax.swing.JMenuItem();
+        menuItemPT09B = new javax.swing.JMenuItem();
         jMenu9 = new javax.swing.JMenu();
         menuItemPT10A = new javax.swing.JMenuItem();
+        menuItemPT10B = new javax.swing.JMenuItem();
         jMenu10 = new javax.swing.JMenu();
         menuItemPT11A = new javax.swing.JMenuItem();
+        menuItemPT11B = new javax.swing.JMenuItem();
         jMenu11 = new javax.swing.JMenu();
         menuItemPT12A = new javax.swing.JMenuItem();
         jMenu12 = new javax.swing.JMenu();
         menuItemPT13A = new javax.swing.JMenuItem();
-        jMenu13 = new javax.swing.JMenu();
-        menuItemPT14A = new javax.swing.JMenuItem();
+        menuItemPT13B = new javax.swing.JMenuItem();
 
         jMenuItem1.setText("jMenuItem1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Tugas Akhir Alfian Rikzandi");
 
         menuA.setText("File");
 
         menuItemFileTentang.setText("Tentang");
+        menuItemFileTentang.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemFileTentangActionPerformed(evt);
+            }
+        });
         menuA.add(menuItemFileTentang);
 
         menuItemFileExit.setText("Exit");
@@ -78,87 +94,215 @@ public class MainPage extends javax.swing.JFrame {
 
         jMenu2.setText("PT 3");
 
-        menuItemPT01A.setText("Latihan Ke 1");
-        jMenu2.add(menuItemPT01A);
+        menuItemPT03A.setText("Latihan Ke 1");
+        menuItemPT03A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT03AActionPerformed(evt);
+            }
+        });
+        jMenu2.add(menuItemPT03A);
 
         jMenuBar1.add(jMenu2);
 
         jMenu3.setText("PT 4");
 
-        menuItemPT04A.setText("Latihan Ke ");
+        menuItemPT04A.setText("Latihan Ke 1");
+        menuItemPT04A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT04AActionPerformed(evt);
+            }
+        });
         jMenu3.add(menuItemPT04A);
+
+        menuItemPT04B.setText("Latihan Ke 2");
+        menuItemPT04B.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT04BActionPerformed(evt);
+            }
+        });
+        jMenu3.add(menuItemPT04B);
 
         jMenuBar1.add(jMenu3);
 
         jMenu4.setText("PT 5");
 
-        menuItemPT05A.setText("Latihan Ke ");
+        menuItemPT05A.setText("Latihan Ke 1");
+        menuItemPT05A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT05AActionPerformed(evt);
+            }
+        });
         jMenu4.add(menuItemPT05A);
+
+        menuItemPT05B.setText("Latihan Ke 2");
+        menuItemPT05B.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT05BActionPerformed(evt);
+            }
+        });
+        jMenu4.add(menuItemPT05B);
+
+        menuItemPT05C.setText("Latihan Ke 3");
+        menuItemPT05C.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT05CActionPerformed(evt);
+            }
+        });
+        jMenu4.add(menuItemPT05C);
 
         jMenuBar1.add(jMenu4);
 
         jMenu5.setText("PT 6");
 
-        menuItemPT06A.setText("Latihan Ke ");
+        menuItemPT06A.setText("Latihan Ke 1");
+        menuItemPT06A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT06AActionPerformed(evt);
+            }
+        });
         jMenu5.add(menuItemPT06A);
+
+        menuItemPT06B.setText("Latihan Ke 2");
+        menuItemPT06B.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT06BActionPerformed(evt);
+            }
+        });
+        jMenu5.add(menuItemPT06B);
+
+        menuItemPT06C.setText("Latihan Ke 3");
+        menuItemPT06C.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT06CActionPerformed(evt);
+            }
+        });
+        jMenu5.add(menuItemPT06C);
 
         jMenuBar1.add(jMenu5);
 
         jMenu6.setText("PT 7");
 
         menuItemPT07A.setText("Latihan Ke ");
+        menuItemPT07A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT07AActionPerformed(evt);
+            }
+        });
         jMenu6.add(menuItemPT07A);
 
         jMenuBar1.add(jMenu6);
 
         jMenu7.setText("PT 8");
 
-        menuItemPT08A.setText("Latihan Ke ");
+        menuItemPT08A.setText("Latihan Ke 1");
+        menuItemPT08A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT08AActionPerformed(evt);
+            }
+        });
         jMenu7.add(menuItemPT08A);
+
+        menuItemPT08B.setText("Latihan Ke 2");
+        menuItemPT08B.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT08BActionPerformed(evt);
+            }
+        });
+        jMenu7.add(menuItemPT08B);
 
         jMenuBar1.add(jMenu7);
 
         jMenu8.setText("PT 9");
 
-        menuItemPT09A.setText("Latihan Ke ");
+        menuItemPT09A.setText("Latihan Ke 1");
+        menuItemPT09A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT09AActionPerformed(evt);
+            }
+        });
         jMenu8.add(menuItemPT09A);
+
+        menuItemPT09B.setText("Latihan Ke 2");
+        menuItemPT09B.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT09BActionPerformed(evt);
+            }
+        });
+        jMenu8.add(menuItemPT09B);
 
         jMenuBar1.add(jMenu8);
 
         jMenu9.setText("PT 10");
 
-        menuItemPT10A.setText("Latihan Ke ");
+        menuItemPT10A.setText("Latihan Ke 1");
+        menuItemPT10A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT10AActionPerformed(evt);
+            }
+        });
         jMenu9.add(menuItemPT10A);
+
+        menuItemPT10B.setText("Latihan Ke 2");
+        menuItemPT10B.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT10BActionPerformed(evt);
+            }
+        });
+        jMenu9.add(menuItemPT10B);
 
         jMenuBar1.add(jMenu9);
 
         jMenu10.setText("PT 11");
 
-        menuItemPT11A.setText("Latihan Ke ");
+        menuItemPT11A.setText("Latihan Ke 1");
+        menuItemPT11A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT11AActionPerformed(evt);
+            }
+        });
         jMenu10.add(menuItemPT11A);
+
+        menuItemPT11B.setText("Latihan Ke 2");
+        menuItemPT11B.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT11BActionPerformed(evt);
+            }
+        });
+        jMenu10.add(menuItemPT11B);
 
         jMenuBar1.add(jMenu10);
 
         jMenu11.setText("PT 12");
 
         menuItemPT12A.setText("Latihan Ke ");
+        menuItemPT12A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT12AActionPerformed(evt);
+            }
+        });
         jMenu11.add(menuItemPT12A);
 
         jMenuBar1.add(jMenu11);
 
         jMenu12.setText("PT 13");
 
-        menuItemPT13A.setText("Latihan Ke ");
+        menuItemPT13A.setText("Latihan Ke 1");
+        menuItemPT13A.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT13AActionPerformed(evt);
+            }
+        });
         jMenu12.add(menuItemPT13A);
 
+        menuItemPT13B.setText("Latihan Ke 2");
+        menuItemPT13B.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuItemPT13BActionPerformed(evt);
+            }
+        });
+        jMenu12.add(menuItemPT13B);
+
         jMenuBar1.add(jMenu12);
-
-        jMenu13.setText("PT 14");
-
-        menuItemPT14A.setText("Latihan Ke ");
-        jMenu13.add(menuItemPT14A);
-
-        jMenuBar1.add(jMenu13);
 
         setJMenuBar(jMenuBar1);
 
@@ -181,6 +325,336 @@ public class MainPage extends javax.swing.JFrame {
         
         System.exit(0);
     }//GEN-LAST:event_menuItemFileExitActionPerformed
+
+    private void menuItemPT03AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT03AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 3 Latihan Ke 1");
+        
+        E03LatA panel = new E03LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT03AActionPerformed
+
+    private void menuItemPT04AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT04AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 4 Latihan Ke 1");
+        
+        E04LatA panel = new E04LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT04AActionPerformed
+
+    private void menuItemPT04BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT04BActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 4 Latihan Ke 2");
+        
+        E04LatB panel = new E04LatB();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT04BActionPerformed
+
+    private void menuItemPT05AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT05AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 5 Latihan Ke 1");
+        
+        E05LatA panel = new E05LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT05AActionPerformed
+
+    private void menuItemPT05BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT05BActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 5 Latihan Ke 2");
+        
+        E05LatB panel = new E05LatB();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT05BActionPerformed
+
+    private void menuItemPT05CActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT05CActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 5 Latihan Ke 3");
+        
+        E05LatC panel = new E05LatC();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT05CActionPerformed
+
+    private void menuItemPT06AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT06AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 6 Latihan Ke 1");
+        
+        E06LatA panel = new E06LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT06AActionPerformed
+
+    private void menuItemPT06BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT06BActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 6 Latihan Ke 2");
+        
+        E06LatB panel = new E06LatB();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT06BActionPerformed
+
+    private void menuItemPT06CActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT06CActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 6 Latihan Ke 3");
+        
+        E06LatC panel = new E06LatC();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT06CActionPerformed
+
+    private void menuItemPT07AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT07AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 7 Latihan Ke 1");
+        
+        E07LatA panel = new E07LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT07AActionPerformed
+
+    private void menuItemPT08AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT08AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 8 Latihan Ke 1");
+        
+        E08LatA panel = new E08LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT08AActionPerformed
+
+    private void menuItemPT08BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT08BActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 8 Latihan Ke 2");
+        
+        E08LatB panel = new E08LatB();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT08BActionPerformed
+
+    private void menuItemPT09AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT09AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 9 Latihan Ke 1");
+        
+        E09LatA panel = new E09LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT09AActionPerformed
+
+    private void menuItemPT09BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT09BActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 9 Latihan Ke 2");
+        
+        E09LatB panel = new E09LatB();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT09BActionPerformed
+
+    private void menuItemPT10AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT10AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 10 Latihan Ke 1");
+        
+        E10LatA panel = new E10LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT10AActionPerformed
+
+    private void menuItemPT10BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT10BActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 10 Latihan Ke 2");
+        
+        E10LatB panel = new E10LatB();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT10BActionPerformed
+
+    private void menuItemPT11AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT11AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 11 Latihan Ke 1");
+        
+        E11LatA panel = new E11LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT11AActionPerformed
+
+    private void menuItemPT11BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT11BActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 11 Latihan Ke 2");
+        
+        E11LatB panel = new E11LatB();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT11BActionPerformed
+
+    private void menuItemPT12AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT12AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 12 Latihan Ke 1");
+        
+        E12LatA panel = new E12LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT12AActionPerformed
+
+    private void menuItemPT13AActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT13AActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 13 Latihan Ke 1");
+        
+        E13LatA panel = new E13LatA();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT13AActionPerformed
+
+    private void menuItemPT13BActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemPT13BActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("PT 13 Latihan Ke 2");
+        
+        E13LatB panel = new E13LatB();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(450, 450);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemPT13BActionPerformed
+
+    private void menuItemFileTentangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemFileTentangActionPerformed
+        // TODO add your handling code here:
+        
+        JFrame frame = new JFrame("Tentang");
+        
+        About panel = new About();
+        
+        frame.add(panel);
+        
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setSize(550, 650);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }//GEN-LAST:event_menuItemFileTentangActionPerformed
 
     /**
      * @param args the command line arguments
@@ -221,7 +695,6 @@ public class MainPage extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu10;
     private javax.swing.JMenu jMenu11;
     private javax.swing.JMenu jMenu12;
-    private javax.swing.JMenu jMenu13;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
@@ -235,17 +708,26 @@ public class MainPage extends javax.swing.JFrame {
     private javax.swing.JMenu menuA;
     private javax.swing.JMenuItem menuItemFileExit;
     private javax.swing.JMenuItem menuItemFileTentang;
-    private javax.swing.JMenuItem menuItemPT01A;
+    private javax.swing.JMenuItem menuItemPT03A;
     private javax.swing.JMenuItem menuItemPT04A;
+    private javax.swing.JMenuItem menuItemPT04B;
     private javax.swing.JMenuItem menuItemPT05A;
+    private javax.swing.JMenuItem menuItemPT05B;
+    private javax.swing.JMenuItem menuItemPT05C;
     private javax.swing.JMenuItem menuItemPT06A;
+    private javax.swing.JMenuItem menuItemPT06B;
+    private javax.swing.JMenuItem menuItemPT06C;
     private javax.swing.JMenuItem menuItemPT07A;
     private javax.swing.JMenuItem menuItemPT08A;
+    private javax.swing.JMenuItem menuItemPT08B;
     private javax.swing.JMenuItem menuItemPT09A;
+    private javax.swing.JMenuItem menuItemPT09B;
     private javax.swing.JMenuItem menuItemPT10A;
+    private javax.swing.JMenuItem menuItemPT10B;
     private javax.swing.JMenuItem menuItemPT11A;
+    private javax.swing.JMenuItem menuItemPT11B;
     private javax.swing.JMenuItem menuItemPT12A;
     private javax.swing.JMenuItem menuItemPT13A;
-    private javax.swing.JMenuItem menuItemPT14A;
+    private javax.swing.JMenuItem menuItemPT13B;
     // End of variables declaration//GEN-END:variables
 }
